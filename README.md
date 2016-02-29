@@ -12,9 +12,9 @@ Recording with the SimpleRecorder:
 For specific documentation see the javadocs for the SimpleRecorder Class. The following are the constructors for the SimpleRecorder:
 
 SimpleRecorder a;
-a = new SimpleRecorder();         //Inits a new SimpleRecorder object with path: "audio.wav", duration: 10 seconds, format: wave<br />
-a = new SimpleRecorder(30);       //Inits a new SimpleRecorder object with path: "audio.wav", duration: 30 seconds, format: wave<br />
-a = new SimpleRecorder(30, "path/audio.wav");   //Inits a new SimpleRecorder object with path: "path/audio.wav", duration: 30 seconds, format: wave<br />
+a = new SimpleRecorder();&nbsp;&nbsp;&nbsp;&nbsp;//Inits a new SimpleRecorder object with path: "audio.wav", duration: 10 seconds, format: wave<br />
+a = new SimpleRecorder(30);&nbsp;&nbsp;&nbsp;&nbsp;//Inits a new SimpleRecorder object with path: "audio.wav", duration: 30 seconds, format: wave<br />
+a = new SimpleRecorder(30, "path/audio.wav");&nbsp;//Inits a new SimpleRecorder object with path: "path/audio.wav", duration: 30 seconds, format: wave<br />
 //There is one other but these three are the ones that beginners will use. 
 
 Play back with SimplePlayback
@@ -22,5 +22,5 @@ Play back with SimplePlayback
 For specific documentation see the javadocs for the SimplePlayback Class. The following are the constructors for the SimplePlayback:
 
 SimplePlayback b;
-b = new SimplePlayback();                          //Inits a new SimplePlayback object with path: null<br />
-b = new SimplePlayback("path/file.mp3");           //Inits a new SimplePlayback object with path: path/file.mp3<br />
+b = new SimplePlayback();&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Inits a new SimplePlayback object with path: null<br />
+b = new SimplePlayback("path/file.mp3");&nbsp;&nbsp;&nbsp;&nbsp;//Inits a new SimplePlayback object with path: path/file.mp3<br />
