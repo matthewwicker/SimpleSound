@@ -3,11 +3,8 @@ The java SimpleSound API has a very simple purpose: to make audio recording and 
 
 What is in this repository:
 • Raw code for the SimpleRecorder and SimplePlayback classes
-
 • The binary for using the SimpleSound API
-
 • The binary for the version of jlayer used for .mp3 file support
-
 • A folder of HTML javadocs for both of the classes
 
 Recording with the SimpleRecorder:
